@@ -1,0 +1,169 @@
+*{
+	box-sizing: border-box;/*Add every time*/
+}
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1280px;
+	font-family: Garamond, helvetica, Arial,;
+	display: grid;
+}
+
+.asparagus_logo_type {
+  text-align: center;
+}
+
+.asparagus_logo_type a {
+  padding-top: 0px;
+	padding-bottom: 0px;
+	/* border: 1px solid green; */
+	font-size: 80px;
+	text-align: center;
+	/* margin-bottom: 0px; */
+	color: black;
+	transition: all.3s;
+	width: 100%;
+  text-decoration: none;
+}
+
+.asparagus_logo_type p {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 30px;
+  color: grey;
+  text-align: center;
+  /* border:  1px solid pink; */
+}
+
+.asparagus_hero_image {
+  text-align: center;
+  margin-bottom: 15px;
+  /* border: 1px solid blue; */
+}
+
+.asparagus_hero_image img {
+  width: 40%;
+  text-align: center;
+}
+
+.navi_main {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+}
+
+.all_things_asparagus a {
+  text-decoration: none;
+  color: black;
+  /* border: yellow; */
+}
+
+.how_to_cook_me a {
+  text-decoration: none;
+  color: black;
+  /* border: yellow; */
+}
+
+.my_health_benefits a {
+  text-decoration: none;
+  color: black;
+  /* border: yellow; */
+}
+
+.me_in_popular_culture a {
+  text-decoration: none;
+  color: black;
+  /* border: yellow; */
+}
+
+.two_columns {
+  margin-top: 20px;
+  /* border: 1px solid black; */
+  height: 140px;
+
+}
+
+.left_column {
+
+  font-size: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+  color: black;
+
+}
+
+
+
+.right_column {}
+
+
+.button_and_intro {
+	/* border: 2px solid grey; */
+	background-color: none;
+	height: 140px;
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	/* padding: 60px 380px 30px 380px; */
+	margin-bottom: 80px;
+	margin-top: 0px;
+}
+
+.cta1 {
+  margin-top: 35px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 20px 25px;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	transition: all.5s;
+	border-radius: 20px;
+  font-family: helvetica;
+}
+
+.cta1:hover {
+	background-color: black;
+	color: white;
+	padding: 20px 40px;
+}
+
+.link_text {
+  font-family: helvetica;
+}
+
+.link_back {
+  text-decoration: none;
+  color: gray;
+}
+
+.large_image_part {
+  margin-top: 40px;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.large_image_part img {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 800px;
+  text-align: center;
+  transition: all.5s;
+}
+
+.large_image_part img:hover {
+  	transform: scale(1.1);
+    /* transition: 2.1; */
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-family: helvetica;
+  font-weight: lighter;
+  /* border: 2px solid pink; */
+}

@@ -1,0 +1,30 @@
+/* Resets the box sizes and allows us to reliably use % values for columns. */
+* {
+    box-sizing: border-box;
+}
+/*
+ * While you've never seen the CSS syntax below before, this allows us to set a
+ * global property and value to any class that starts with the name "col-". The
+ * below will float all the "col-" classes left. You define this if you have the
+ * same property and value declaration for each element and it's a shorter and
+ * cleaner method to having to retype "float:left" in every single "col-""
+ * declaration. This way, you only have to specify the widths for the columns as
+ * the float has already been declared. Nice, hey?
+ */
+[class*="col-"] {
+    float: left;
+      /* You can add other styles here if you want it to apply to all columns. */
+}
+/* Now we define the widths for our respective columns. */
+.col-1_12 { width: 8.3333%; }   /* This is 1/12 of 100% */
+.col-2_12 { width: 16.6666%; }  /* This is 2/12, or 1/6, of 100% */
+.col-3_12 { width: 25%; }       /* This is 3/12, or 1/4, of 100%. */
+.col-4_12 { width: 33.3333%; }  /* This is 4/12, or 1/3, of 100% */
+.col-5_12 { width: 41.6666%; }  /* This is 5/12 of 100% */
+.col-6_12 { width: 50%; }       /* This is 6/12, or 1/2, of 100% */
+.col-7_12 { width: 58.3333%; }  /* This is 7/12 of 100% */
+.col-8_12 { width: 66.6666%; }  /* This is 8/12, or 2/3, of 100% */
+.col-9_12 { width: 75%; }       /* This is 9/12, or 3/4, of 100% */
+.col-10_12 { width: 83.3333%; } /* This is 10/12 of 100% */
+.col-11_12 { width: 91.6666%; } /* This is 11/12 of 100% */
+.col-12_12 { width: 100%; }     /* This is 12/12, or 1/1 (100%), of 100% */
